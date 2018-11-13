@@ -1,4 +1,4 @@
-# Deep Learning for Retina Nerves Segmentation 
+# Deep Learning for Retina Nerves Segmentation by Adegun Adekanmi A
 
 
 
