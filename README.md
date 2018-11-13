@@ -1,4 +1,4 @@
-# Deep Learning for Kaggle Retina Nerves Segmentation competition
+# Deep Learning for Retina Nerves Segmentation 
 
 
 
