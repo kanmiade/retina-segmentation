@@ -1,9 +1,8 @@
-# Deep Learning Tutorial for Kaggle Ultrasound Nerve Segmentation competition, using Keras
+# Deep Learning for Kaggle Retina Nerves Segmentation competition
 
-This tutorial shows how to use [Keras library](http://keras.io/) to build deep neural network for ultrasound image nerve segmentation.
-More info on this Kaggle competition can be found on [https://www.kaggle.com/c/ultrasound-nerve-segmentation](https://www.kaggle.com/c/ultrasound-nerve-segmentation).
 
-This deep neural network achieves **~0.57 score on the leaderboard** based on test images,
+
+This deep neural network achieves reasonable result ,
 and can be a good staring point for further, more serious approaches.
 
 The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
@@ -11,7 +10,7 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ---
 
-## Update 02.04.2017.
+## Update 13.11.2018.
 
 Changes:
 - using Keras 2
@@ -26,7 +25,7 @@ Changes:
 
 ### Data
 
-[Provided data](https://www.kaggle.com/c/ultrasound-nerve-segmentation/data) is processed by ```data.py``` script.
+[Provided data](https://www.isi.uu.nl/Research/Databases/DRIVE/) is processed by ```data.py``` script.
 This script just loads the images and saves them into NumPy binary format files **.npy** for faster loading later.
 
 ### Pre-processing
@@ -63,17 +62,7 @@ The weights are updated by Adam optimizer, with a 1e-5 learning rate. During tra
 
 ---
 
-## How to use
 
-### Dependencies
-
-This tutorial depends on the following libraries:
-
-* scikit-image
-* Tensorflow
-* Keras >= 2.0
-
-Also, this code should be compatible with Python versions 2.7-3.5.
 
 ### Prepare the data
 
